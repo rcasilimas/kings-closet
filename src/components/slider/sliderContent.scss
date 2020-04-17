@@ -1,0 +1,18 @@
+.sliderContent {
+    height: 100%;
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .slide {
+        
+        h1 {
+            font-size: 48px;
+        }
+
+        h3 {
+            font-size: 24px;
+        }
+    }
+}

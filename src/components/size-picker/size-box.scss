@@ -1,0 +1,25 @@
+.size-picker-box {
+    background-color: white;
+    border: lightgray solid 1px;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+
+    .size {
+        margin: 0 5px;
+    }
+}
+
+.size-picker-box-active {
+    background-color: lightgray;
+    border: black solid 1px;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+
+    .size {
+        margin: 0 5px;
+    }
+}

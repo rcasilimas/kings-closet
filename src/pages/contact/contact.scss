@@ -1,0 +1,84 @@
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .contact-form {
+        display: flex;
+        background-color: whitesmoke;
+        flex-direction: column;
+        align-items: center;
+        width: 600px;
+        height: 400px;
+        border: 1px solid lightgray;
+        margin: 30px 0 60px 0 ;
+
+        .name-form, .email-form, .description-form, .submit-form {
+            display: inline-flex;
+            flex-direction: column;
+            margin: 10px 10px;
+
+
+            .name-form-box, .email-form-box {
+                height: 40px;
+                width: 500px;
+                border: 1px solid lightgray;
+            }
+
+            .description-form-box {
+                height: 100px;
+                width: 500px;
+                border: 1px solid lightgray;
+            }
+
+            .label {
+                font-weight: 600;
+                font-size: large;
+                margin-bottom: 3px;
+            }
+
+            .submit-box {
+                height: 30px;
+                width: 100px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-page {
+        .contact-form {
+            width: 450px;
+            height: 330px;
+
+            .name-form, .email-form, .description-form, .submit-form {
+                margin: 5px 5px;
+
+                .name-form-box, .email-form-box {
+                    height: 30px;
+                    width: 300px;
+                    border: 1px solid lightgray;
+                }
+    
+                .description-form-box {
+                    height: 100px;
+                    width: 300px;
+                    border: 1px solid lightgray;
+                }
+    
+                .label {
+                    font-weight: 600;
+                    font-size: large;
+                    margin-bottom: 2px;
+                }
+    
+                .submit-box {
+                    height: 30px;
+                    width: 100px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+  }

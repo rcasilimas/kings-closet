@@ -1,0 +1,23 @@
+.menu-header-container {
+    height: 50px;
+    width: 100%;
+    padding: 0px 20px;
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: transparent;
+
+    .menu-button {
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .menu-header-container {
+      display: flex
+    }
+}

@@ -1,0 +1,56 @@
+.nonsticky-header-container {
+    height: 70px;
+    width: 100%;
+    padding: 0 60px;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px lightgray solid;
+
+    .nonsticky-title-container {
+      width: 50%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+  
+    .nonsticky-header-logo {
+      margin-top: -12px;
+
+    }
+
+    .nonsticky-header-title {
+      font-size: large;
+      cursor: pointer;
+    }
+
+  .nonsticky-header-logo-container {
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+    margin-right: 25px;
+  }
+
+  .nonsticky-options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .nonsticky-option {
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .nonsticky-header-container {
+    display: none;
+  }
+}

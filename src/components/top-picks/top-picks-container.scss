@@ -1,0 +1,32 @@
+.top-picks-container {
+    background-color: whitesmoke;
+    text-align: center;
+    position: relative;
+    height: 60%;
+    width: 99%;
+    padding: 10px;
+
+    .button-container {
+        display: inline-flex;
+        margin-bottom: 20px;
+    }
+
+    .active-text {
+        color: black;
+    }
+
+    .button {
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    h2 {
+        margin: 0 0 10px 0;
+        color: gray;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+  
+}
